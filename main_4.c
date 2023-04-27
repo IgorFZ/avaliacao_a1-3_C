@@ -13,6 +13,7 @@ int main() {
       printf("\nInforme a quantidade de produtos: ");
       scanf(" %i", &quantidade);
       if (quantidade > 0) {
+        // pede o valor e armazena as informações necessarias
         printf("Informe o valor desses produtos: ");
         scanf(" %lf", &valor);
         quantidade_total = quantidade_total + quantidade;
